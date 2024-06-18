@@ -105,3 +105,6 @@ source $ZSH/oh-my-zsh.sh
 alias spm="sudo pacman"
 alias vi="nvim"
 alias neofetch="neofetch --kitty ~/Downloads/hannah.jpg"
+alias gpmain="git push -u origin main"
+alias gm="git commit -m"
+alias ga="git add"
