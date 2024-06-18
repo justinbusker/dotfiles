@@ -103,3 +103,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias spm="sudo pacman"
+alias vi="nvim"
+alias neofetch="neofetch --kitty ~/Downloads/hannah.jpg"
