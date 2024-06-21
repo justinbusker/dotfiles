@@ -72,7 +72,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zoxide zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -108,6 +108,5 @@ alias neofetch="neofetch --kitty ~/Downloads/hannah.jpg"
 alias gpmain="git push -u origin main"
 alias gm="git commit -m"
 alias ga="git add"
+alias porn="ls"
 
-
-eval "$(zoxide init zsh)"
